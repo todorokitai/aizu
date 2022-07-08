@@ -19,6 +19,8 @@ class ex4{
             }
         }
         System.out.println("Heads: " + countHeads + " Tails: " + countTails);
+        if(countHeads>countTails) System.out.println("You won");
+        else System.out.println("You lose");
     }
 }
 

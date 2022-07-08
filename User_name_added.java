@@ -1,5 +1,6 @@
 import java.util.*;
-class User_name_added{
+class aizu{
+    public static String name;
     public static void main(String[] args){
         name();
         coin();
@@ -9,7 +10,7 @@ class User_name_added{
         Scanner sc = new Scanner(System.in);
         System.out.println("Who are you?");
         System.out.print("> ");
-        String name = sc.next();
+        name = sc.next();
         System.out.println("Hello, " + name + "!");
     }
 
@@ -32,5 +33,7 @@ class User_name_added{
             }
         }
         System.out.println("Heads: " + countHeads + " Tails: " + countTails);
+        if(countHeads>countTails) System.out.println(name + " won!");
+        else System.out.println(name + " lose!");
     }
 }

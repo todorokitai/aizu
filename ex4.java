@@ -1,5 +1,5 @@
 import java.util.*;
-class aizu{
+class ex4{
     public static void main(String[] args){
         Random randam = new Random();
         int count;
